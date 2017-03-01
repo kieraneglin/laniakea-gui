@@ -25,7 +25,7 @@ gulp.task('angular', function () {
   ];
 
   return gulp.src(files)
-      .pipe(concat('angular_files.js'))
+      .pipe(concat('angular.js'))
       .pipe(gulp.dest('app'));
 });
 
@@ -53,10 +53,11 @@ gulp.task('watch', function () {
 
     watch('src/**/*.js', batch(function (events, done) {
         gulp.start('bundle', beepOnError(done));
+        gulp.start('angular', beepOnError(done));
     }));
     watch('src/**/*.scss', batch(function (events, done) {
         gulp.start('sass', beepOnError(done));
     }));
 });
 
-gulp.task('build', ['bundle', 'sass', 'environment']);
+gulp.task('build', ['bundle', 'sass', 'environment', 'angular']);
