@@ -1,5 +1,3 @@
-'use strict';
-
 var path = require('path');
 var jetpack = require('fs-jetpack');
 var rollup = require('rollup').rollup;

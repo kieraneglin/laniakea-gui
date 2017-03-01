@@ -10,18 +10,11 @@
     <script src="helpers/external_links.js"></script>
 
     <script src="app.js"></script>
+    <script src="angular_files.js"></script>
 </head>
-<body>
-
-    <div class="container">
-        <h1 id="greet"></h1>
-        <p class="subtitle">
-            Welcome to <a href="http://electron.atom.io" class="js-external-link">Electron</a> app running on this magnificent <strong id="platform-info"></strong> machine.
-        </p>
-        <p class="subtitle">
-            You are in <strong id="env-name"></strong> environment.
-        </p>
-    </div>
-
-</body>
+  <body ng-app="foo">
+      <div ng-controller="fooCtrl">
+          {{greet}}
+      </div>
+  </body>
 </html>
