@@ -1,0 +1,24 @@
+{
+  "name": "laniakea-gui",
+  "version": "0.0.1",
+  "description": "A GUI for Laniakea ROM Renamer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kieraneglin/laniakea-gui.git"
+  },
+  "keywords": [
+    "laniakea",
+    "rom",
+    "game"
+  ],
+  "author": "Kieran Eglin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kieraneglin/laniakea-gui/issues"
+  },
+  "homepage": "https://github.com/kieraneglin/laniakea-gui#readme"
+}
