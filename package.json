@@ -28,7 +28,8 @@
   },
   "dependencies": {
     "angular": "^1.6.2",
-    "fs-jetpack": "^0.12.0"
+    "fs-jetpack": "^0.12.0",
+    "laniakea": "^1.2.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
