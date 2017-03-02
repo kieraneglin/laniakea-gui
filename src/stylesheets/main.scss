@@ -1,25 +1,7 @@
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
+@import 'pure';
+@import 'pure-responsive';
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    text-align: center;
-}
-
-.subtitle {
-    color: gray;
+.home {
+  width: 90%;
+  margin: 0 auto;
 }

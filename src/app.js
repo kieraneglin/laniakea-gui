@@ -1,3 +1,6 @@
-import angular from 'angular';
+const angular = require('angular');
 
-angular.module('foo', []);
+angular.module('laniakeaGUI', []);
+
+// console.log(dialog);
+// console.log(dialog.showOpenDialog({properties: ['openFile', 'openDirectory', 'multiSelections']}));
