@@ -5,3 +5,15 @@
   width: 90%;
   margin: 0 auto;
 }
+
+table.file-list {
+  display: block;
+  overflow-x: auto;
+  direction:rtl;
+  & td {
+    white-space: nowrap;
+    text-align: right;
+    font-family: "Courier New", Courier, monospace;
+    font-size: .85em;
+  }
+}

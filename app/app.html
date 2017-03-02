@@ -21,6 +21,16 @@
       <div class="pure-u-2-5">
         <input type="text" ng-model="sourcePath">
         <button type="button" ng-click="updateSourcePath()">Choose Source</button>
+
+        <table class="file-list pure-table pure-table-horizontal pure-table-striped">
+          <tbody>
+            <tr ng-repeat="file in sourceFiles">
+              <td>
+                {{ file }}
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div class="pure-u-1-5">
       </div>
